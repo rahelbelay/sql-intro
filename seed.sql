@@ -1,9 +1,20 @@
--- insert few albums
-insert into albums
-        (title, artist, genre)
+insert into artists
+        (name)
     values
-        ('time out', 'dave brubeck', 'jazz'),
-		('love', 'dave ', 'country'),
-		('out', ' brubeck', 'hi')
+        ('Miles Davis'),
+        ('Chet Baker'),
+        ('Nina SImone')
     ;
+
+
+-- insert few albums
+insert into albums 
+        (title,genre,artist_id)
+
+    values
+        ('bitches brew', 'jazz', 1),
+		('live from folsom prison', 'country', 3),	
+		('charlie brown christmas', 'jazz', 2)
+        ;
+
  
